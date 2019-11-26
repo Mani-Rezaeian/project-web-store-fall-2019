@@ -3,61 +3,66 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>U - Glasses</title>
-    <meta name="description" content="[A short description]">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rocco Bicycle</title>
+    <meta name="description" content="Bicycle">
     <meta name="author" content="Mani Rezaeian">
     <link rel="stylesheet" href="css/reset.css"> <!-- You may change this "Reset" to "Normalize" if preferred -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header>
+    <header class="bheader">
       <!-- Site logo, replace with your own -->
-      <a href="index.html"><img src="img/logo.svg" alt="U-Sunglasses"></a>
-
-      <!-- Search for a product (non-functional) -->
-      <form>
-        <label>
-          <input type="search" name="find" id="find">
-        </label>
-        <button type="button"><span class="material-icons">search</span></button>
-      </form>
-
-      <!-- Navigation menu and toggle button (non-functional) -->
-      <nav aria-label="Primary">
-        <button type="button">
-          <span class="material-icons">menu</span>
-        </button>
-        <ul>
-          <li><a href="#">Women</a>
-            <ul>
-              <li><a href="#">Eyeglsses</a></li>
-              <li><a href="#">Sunglasses</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Men</a></li>
-          <li><a href="#">Unisex</a></li>
-          <li><a href="#">Kids</a></li>
-        </ul>
-      </nav>
-
       
+        <a href="index.html"><img src="img/logo.svg" alt="Rocco Bicycle" class="rocco"></a>
+        
+        <!-- Navigation menu and toggle button (non-functional) -->
+      <nav aria-label="Primary" class="menugrid">
+        <img src="img/menu.svg" alt="Menu" class="menu">
+         <ul class="submenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Get started</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Sign in</a></li>
+         </ul>
+       <img src="img/cart.svg" alt="Cart" class="cart">
+        <ul class="submenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Get started</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Sign in</a></li>
+        </ul>
+      
+    </nav>
 
-      <!-- Additional nav links -->
+    <!-- Search for a product (non-functional) -->
 
-      <ul>
-        <li><a href="#"><span class="material-icons">favorite_border</span></a></li>
-        <li><a href="#"><span class="material-icons">shopping_cart</span></a></li>
-      </ul>
-    </header>
+    <img src="img/fabric.jpg" alt="" class="line">
+
+    
+    
+    <form class="searchbox">
+      <label>Search<input type="search" name="find" id="find"></label>
+    </form>
+    <!-- Additional nav links -->
+
+  </header>
 
     <main>
       <header>
-        <h1>Sale on [Category Name]</h1>
+        <h1 class="promotion">BUY ONE PAIR OF
+          SUNGLASSES & SAVE 75$ ON SECOND</h1>
 
         <!-- Filtering product form -->
         <form>
-          <h2>Filters</h2>
+          <a href="index.html"><img src="img/filter.png" alt="filter"></a>
           <fieldset>
             <label for="sort">Show</label>
             <select name="sort" id="sort">
