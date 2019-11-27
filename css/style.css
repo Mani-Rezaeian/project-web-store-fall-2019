@@ -27,7 +27,7 @@ h4 {
 }
 
 .bheader {
-    background-color: #9b9bff;
+    background-color: #dea479;
     
 }
 
@@ -81,7 +81,7 @@ h4 {
 
 .search-container {
 
-    width: 12em;
+    width: 11.5em;
     
     margin-left: auto;
     margin-right: auto;
@@ -99,7 +99,7 @@ h4 {
     width: 11.5em; 
     margin: 0.3em;
     border-radius: 2px;
-    background-color: #9b9bff;
+    background-color: #dea479;
 }
 
 .searchbar:hover {
@@ -118,10 +118,61 @@ h4 {
 .promotion {
     font-size: 1.2em;
     text-align: center;
-    background-color: #fae4a7;
+    background-color: #f4bb90;
     padding: 1em;
 }
 
-.tm {
-    content: "1254";
+
+.offer {
+    font-size: 1em;
+    text-align: center;
+    background-color: #f4bb90;
+    padding: 1em;
 }
+.offer img {
+    max-width: 100%;
+    padding: 0.5em ;
+}
+.offer h1 {
+    color: #aa0513;
+}
+
+.getpromo {
+    border-radius: 0.1em;
+    background-color: #be0606;
+    color: white;
+    margin: 1em;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+ }
+.shoplinkblack {
+    color: #090909;
+    padding: 3em 1em;
+    text-align: center;
+    text-decoration:underline;
+    font-size: 0.9em;
+    font-weight: 700;
+    text-transform: uppercase;
+ }
+
+.product {
+    font-size: 1.1em;
+    text-align: center;
+    padding: 1em;
+}
+
+.product img {
+    width: 100%;
+}
+
+
+
+.bgp {
+background-color: #f4bb90;
+}
+
