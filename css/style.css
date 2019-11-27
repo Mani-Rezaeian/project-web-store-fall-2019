@@ -63,14 +63,14 @@ h4 {
 .menu { 
 
     display: inline;
-    width: 12em;
+    
     margin-right: auto;
 }
 
 
 .cart { 
     display: inline;
-    width: 12em;
+    
     margin-left: auto;
 }
 
