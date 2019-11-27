@@ -176,14 +176,25 @@ h4 {
 background-color: #f4bb90;
 }
 
+@media screen and (min-width: 600px) {
+    .bheader {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 34em;
+    margin-left: auto;
+    margin-right: auto; 
+    } 
+
+    }
 
 
 @media screen and (min-width: 600px) {
-    section {
+    main {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 1em;
-    padding: 1em 1em;
+    grid-template-columns: 1fr;
+    max-width: 34em;
+    margin-left: auto;
+    margin-right: auto;
 
     
 
