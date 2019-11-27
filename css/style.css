@@ -34,7 +34,7 @@ h4 {
 
 
 .rocco {
-    width: 8.5em;
+    width: 10em;
     
     display: block;
     margin-left: auto;
@@ -52,7 +52,7 @@ h4 {
 }
 
 .menugrid img{
-    width: 2em;
+    width: 4em;
    }
    
 .submenu { 
@@ -61,13 +61,16 @@ h4 {
 
 
 .menu { 
+
     display: inline;
+    width: 12em;
     margin-right: auto;
 }
 
 
 .cart { 
     display: inline;
+    width: 12em;
     margin-left: auto;
 }
 
@@ -103,7 +106,7 @@ h4 {
 }
 
 .searchbar:hover {
-    background-color: rgb(113, 138, 190);
+    background-color: rgb(170, 2, 2);
 }
 
 .linedge {
