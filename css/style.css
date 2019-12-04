@@ -202,12 +202,12 @@ h4 {
     width: 1em;
     height: 1em;
     cursor: pointer;
-    background-image: url('//img/starunchecked.png');
+    background-image: url('https://raw.githubusercontent.com/Mani-Rezaeian/project-web-store-fall-2019/master/img/starunchecked.png');
     background-size: 100%;
   }
 
   .option input:checked + .starunchecked {
-    background-image: url('/img/starchecked.png');
+    background-image: url('https://raw.githubusercontent.com/Mani-Rezaeian/project-web-store-fall-2019/master/img/starchecked.png');
     background-size: 100%;
     background-position: center;
     
@@ -220,12 +220,12 @@ h4 {
     width: 1em;
     height: 1em;
     cursor: pointer;
-    background-image: url('/img/checkedborder.png');
+    background-image: url('https://raw.githubusercontent.com/Mani-Rezaeian/project-web-store-fall-2019/master/img/checkedborder.png');
     background-size: 100%;
   }
 
   .option input:checked + .heart {
-    background-image: url('/img/checked.png');
+    background-image: url('https://raw.githubusercontent.com/Mani-Rezaeian/project-web-store-fall-2019/master/img/checked.png');
     background-size: 100%;
     background-position: center;
   }
@@ -263,7 +263,7 @@ background-color: #f4bb90;
     width: 1em;
     height: 1em;
     cursor: pointer;
-    background-image: url('/img/facebook.png');
+    background-image: url('https://raw.githubusercontent.com/Mani-Rezaeian/project-web-store-fall-2019/master/img/facebook.png');
     background-size: 100%;
 
 }
@@ -275,7 +275,7 @@ background-color: #f4bb90;
     width: 1em;
     height: 1em;
     cursor: pointer;
-    background-image: url('../img/instagram.png');
+    background-image: url('https://raw.githubusercontent.com/Mani-Rezaeian/project-web-store-fall-2019/master/img/instagram.png');
     background-size: 100%;
 
 }
