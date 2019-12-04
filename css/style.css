@@ -106,7 +106,7 @@ h4 {
 }
 
 .searchbar:hover {
-    background-color: rgb(170, 2, 2);
+    background-color: #be0606;
 }
 
 .linedge {
@@ -137,7 +137,7 @@ h4 {
     padding: 0.5em ;
 }
 .offer h1 {
-    color: #aa0513;
+    color: #be0606;
 }
 
 .getpromo {
@@ -173,11 +173,113 @@ h4 {
     width: 100%;
 }
 
+.addtocard {
+    border: 0;
+    line-height: 1;
+    padding: 0 1em;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    width: 11.5em; 
+    margin: 0.3em;
+    border-radius: 2px;
+    background-color: #be0606;
+ }
+
+ .redlabel {
+     color: #be0606;
+     font-size: 0.7em;
+ }
+
+ .option input {
+    display: none;
+  }
+
+  .starunchecked { 
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #f4bb90;
+    width: 1em;
+    height: 1em;
+    cursor: pointer;
+    background-image: url('/img/starunchecked.png');
+    background-size: 100%;
+  }
+
+  .option input:checked + .starunchecked {
+    background-image: url('/img/starchecked.png');
+    background-size: 100%;
+    background-position: center;
+    
+  }
+
+ .heart { 
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #f4bb90;
+    width: 1em;
+    height: 1em;
+    cursor: pointer;
+    background-image: url('/img/checkedborder.png');
+    background-size: 100%;
+  }
+
+  .option input:checked + .heart {
+    background-image: url('/img/checked.png');
+    background-size: 100%;
+    background-position: center;
+  }
+
 
 
 .bgp {
 background-color: #f4bb90;
 }
+
+.footer {
+   
+    padding: 2em;
+    color: #7c7c7c;
+    text-align: center;
+  } 
+
+.footer a{
+
+    font-size: 1.5em;
+    color: #be0606;
+    text-decoration: none;
+  }   
+
+
+.footer p{
+
+    font-size: 1em;
+}
+
+.facebooklogo {
+
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    cursor: pointer;
+    background-image: url('/img/facebook.png');
+    background-size: 100%;
+
+}
+
+.instagramlogo {
+
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    cursor: pointer;
+    background-image: url('/img/instagram.png');
+    background-size: 100%;
+
+}
+ 
 
 @media screen and (min-width: 600px) {
     .bheader {
@@ -185,7 +287,8 @@ background-color: #f4bb90;
     grid-template-columns: 1fr;
     max-width: 34em;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
+     
     } 
 
     }
