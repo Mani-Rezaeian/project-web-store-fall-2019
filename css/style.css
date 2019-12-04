@@ -275,7 +275,7 @@ background-color: #f4bb90;
     width: 1em;
     height: 1em;
     cursor: pointer;
-    background-image: url('/img/instagram.png');
+    background-image: url('../img/instagram.png');
     background-size: 100%;
 
 }
@@ -288,7 +288,7 @@ background-color: #f4bb90;
     max-width: 34em;
     margin-left: auto;
     margin-right: auto;
-     
+
     } 
 
     }
