@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap');
+
+:root {
+    --full: url('https://raw.githubusercontent.com/Mani-Rezaeian/project-web-store-fall-2019/master/img/starfull.png');
+    --hollow: url('https://https://raw.githubusercontent.com/Mani-Rezaeian/project-web-store-fall-2019/master/img/starhollow.png');
+  }
+  
 body { 
     background-color: #eaebf0;
     color: #090909;
@@ -191,26 +197,34 @@ h4 {
      font-size: 0.7em;
  }
 
+
+ .item input {
+    display: none;
+  }
+
  .option input {
     display: none;
   }
 
-  .starunchecked { 
+  .item input:checked ~ label {
+    background-image: var(--hollow);
+  }
+  
+  
+  label.star, .item input:checked + label.star {
     display: inline-block;
-    vertical-align: middle;
-    background-color: #f4bb90;
+    padding: 0.25em;
     width: 1em;
     height: 1em;
-    cursor: pointer;
-    background-image: url('https://raw.githubusercontent.com/Mani-Rezaeian/project-web-store-fall-2019/master/img/starunchecked.png');
-    background-size: 100%;
+    text-align: center;
+    background-image: var(--full);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-
-  .option input:checked + .starunchecked {
-    background-image: url('https://raw.githubusercontent.com/Mani-Rezaeian/project-web-store-fall-2019/master/img/starchecked.png');
-    background-size: 100%;
-    background-position: center;
-    
+  
+  
+  .item input:indeterminate + label {
+    background-image: var(--hollow);
   }
 
  .heart { 
