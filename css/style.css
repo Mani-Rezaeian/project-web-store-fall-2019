@@ -4,6 +4,9 @@
     --full: url('https://raw.githubusercontent.com/Mani-Rezaeian/project-web-store-fall-2019/master/img/starfull.png');
     --hollow: url('https://raw.githubusercontent.com/Mani-Rezaeian/project-web-store-fall-2019/master/img/starhollow.png');
   }
+
+
+
   
 body { 
     background-color: #eaebf0;
@@ -132,6 +135,9 @@ h4 {
 }
 
 
+
+
+
 .offer {
     font-size: 1em;
     text-align: center;
@@ -179,6 +185,15 @@ h4 {
     width: 100%;
 }
 
+.productpage {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: center;
+    
+
+}
+
 .addtocard {
     border: 0;
     line-height: 1;
@@ -197,6 +212,12 @@ h4 {
      font-size: 0.7em;
  }
 
+ .descript {
+    color: #cc6d47;
+    font-size: 1em;
+    width: 15em;
+    margin: auto;
+ }
 
  .item input {
     display: none;
